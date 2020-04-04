@@ -30,7 +30,9 @@ public class ValidateUser {
         return hash.toString();
     }
 /**
-    public static String buildValidator(boolean forceSpecialChar, boolean forceCapitalLetter, boolean forceNumber) {
+Unccomment this to create your own builder
+
+public static String buildValidator(boolean forceSpecialChar, boolean forceCapitalLetter, boolean forceNumber) {
 
         StringBuilder patternBuilder = new StringBuilder("(?=.*[a-z])");
 
